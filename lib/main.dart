@@ -10,8 +10,8 @@ class Sextou extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Sextoy',
-      home: Text('Mas tu nao sextaras'),color:Colors.teal ,
+      title: 'Sextou',
+      home: Text('Mas tú não sextaras'),color:Colors.teal ,
     );
   }
 }

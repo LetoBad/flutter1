@@ -21,15 +21,15 @@ class Sextou extends StatelessWidget {
           foregroundColor: const Color.fromARGB(255, 35, 155, 214),
         ),
         body: 
-        Container(
-          margin: EdgeInsets.fromLTRB(250, 45, 100, 250),
-          padding: EdgeInsets.all(10),
-          alignment: Alignment(250, 350),
+        Center(
+          
           child: const Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text("Item 1"),
               Text("Item 2"),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Item 3.1"),
                   Text("Item 3.2")
@@ -39,6 +39,7 @@ class Sextou extends StatelessWidget {
             ],
           ),
         ) ,
+        floatingActionButton: FloatingActionButton(onPressed: null , backgroundColor: const Color.fromARGB(255, 79, 96, 204),),
       ),
     );
   }

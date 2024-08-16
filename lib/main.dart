@@ -9,9 +9,14 @@ class Sextou extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Sextou',
-      home: Text('Mas tú não sextaras'),color:Colors.teal ,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Novo App"),
+          backgroundColor: Color.fromARGB(255, 204, 181, 96),
+        ),
+      ),
     );
   }
 }
